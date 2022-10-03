@@ -4,6 +4,13 @@ on:
       - 'v*'
 
 jobs:
+  steps:
+    - name: create-json
+      id: create-json
+      uses: jsdaniell/create-json@1.1.2
+      with:
+        name: "CNAME"
+        json: 'wiki.kome-lab.net'
   deploy:
     runs-on: ubuntu-latest
     steps:
@@ -13,9 +20,3 @@ jobs:
           python-version: 3.9
       - run: pip install mkdocs-material
       - run: cd home && mkdocs gh-deploy --force
-    - name: create-json
-    id: create-json
-    uses: jsdaniell/create-json@1.1.2
-    with:
-      name: "CNAME"
-      json: 'wiki.kome-lab.net'
