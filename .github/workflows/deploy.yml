@@ -4,13 +4,6 @@ on:
       - 'v*'
 
 jobs:
-  steps:
-    - name: create-json
-      id: create-json
-      uses: jsdaniell/create-json@1.1.2
-      with:
-        name: "CNAME"
-        json: 'wiki.kome-lab.net'
   deploy:
     runs-on: ubuntu-latest
     steps:
