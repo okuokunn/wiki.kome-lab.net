@@ -1,5 +1,23 @@
 site_name: Studio-Kometubu-Network Wiki
-theme: 
-  name: material
-  palette:
-    - primary: light green
+theme:
+    name: material
+    langage: ja
+    palette:
+        - scheme: default
+          primary: green
+          toggle:
+              icon: material/toggle-switch-off-outline
+              name: ダークモードに切り替えます。
+        - scheme: slate
+          primary: green
+          toggle:
+              icon: material/toggle-switch
+              name: ライトモードに切り替えます。
+markdown_extensions:
+    # アラート修飾の設定
+    - admonition
+    # スーパーフェンス機能の設定
+    - pymdownx.superfences
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - javascripts/tables.js
