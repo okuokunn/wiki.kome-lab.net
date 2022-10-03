@@ -11,4 +11,4 @@
 
 </br>
 
-・[Kome-Labドキュメント](./2-Kome-Lab)
+・[Kome-Labドキュメント](./2-Kome-lab)
