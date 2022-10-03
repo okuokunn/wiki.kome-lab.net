@@ -4,6 +4,7 @@
 
 ## 各種URL
 
-・[Studio-Kometubuドキュメント](./1-studio-kometubu)
+・[Studio-Kometubuドキュメント](./1-Studio-Kometubu)
 </br>
-・[Kome-Labドキュメント](./2-kome-lab)
+・[Kome-Labドキュメント](./2-Kome-Lab)
+
