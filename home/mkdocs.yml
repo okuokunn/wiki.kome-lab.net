@@ -21,3 +21,8 @@ markdown_extensions:
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
   - javascripts/tables.js
+nav:
+    - Home: index.md
+    - Studio-Kometubu: 1-Studio-Kometubu/index.md
+    - Kome-Lab: 2-Kome-Lab/index.md
+    - Minecraft: 3-Minecraft/index.md

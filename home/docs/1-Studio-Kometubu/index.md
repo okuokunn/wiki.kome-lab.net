@@ -3,10 +3,11 @@
 !!!Warning
     ！！注意！！このWikiはまだ製作中です。その点に留意してご覧ください。
 
-ここにはKome-Labについての情報が掲載されています
+ここにはStudio-Kometubuについての情報が掲載されています
 
 ## ドキュメント一覧
 
 ・[ホーム](./)
 </br>
-・[hoge](./hoge)
+
+・[Stidio-Kometubuとは](./about-studio-kometubu)
